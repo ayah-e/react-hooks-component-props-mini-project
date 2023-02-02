@@ -1,8 +1,10 @@
 import React from "react";
 
-function Header(){
+function Header(props){
     return(
-        <h1>Full Circle</h1>
+        <header>
+            <h1>{props.name}</h1>
+        </header>
     );
 }
 
